@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #F6F6EE;
+}
+
+#nav{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 3vw;
+    justify-content: space-between;
+    background-color: #F6F6EE;
+}
+
+#nav #links{
+    display: flex;
+    gap: 25px;
+}
+
+#links a{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#nav h3 span{
+    font-weight: 600;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+    background-color: #F6F6EE;
+
+}
+
+#heading h1{
+    font-size: 65px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+#heading p{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#heading button{
+    font-size: 16px;
+    padding: 12px 32px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+
+#illus{
+    width: 100%;
+}
+
+#illus img{
+    width: 100%;
+}
+
+#elem img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 85%;
+    border-radius: 10px;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw 5vw;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #F6F6EE;
+}
+
+#details #dleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 50px;
+    width: 48%;
+    border-right: 2px solid black;
+}
+
+
+#dleft #dleft p{
+    width: 40%;
+    text-align: right;
+    font-size: 12px;
+}
+
+#details #dright{
+    width: 48%;
+}
+
+.fdets h3{
+    font-size: 33px;
+}
+
+.fdets p{
+    font-size: 18px;
+}
+
+.fdets img{
+    height: 12%;
+    width: 30%;
+    border-radius: 10px;
+}
